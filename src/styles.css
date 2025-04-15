@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    display: grid;
+    font-size: large;
+    font-weight: bold;
+    grid-template-columns: 1fr 1fr;
+    background-color: aliceblue;
+}
+#logo{
+    padding: 25px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav button{
+    font-family: fantasy;
+    font-size: x-large;
+    font:bolder;
+    border: none;
+    background:transparent;
+}
+#head{
+    color:white;
+    padding: 15vh;
+    font-family: cursive;
+}
+#content{
+    height: 100vh;
+}
+#slogan1{
+    margin-left:20%;
+    margin-top:100px;
+    padding: 0 10px;
+    background-color: aqua;
+    width: fit-content;
+    height: fit-content;
+    text-align:center;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+#slogan2{
+    margin-left:10%;
+    margin-top:100px;
+    padding: 0 10px;
+    background-color:aquamarine;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    border: solid black 1px;
+    border-radius: 10px;
+}
