@@ -27,6 +27,7 @@ nav button{
     background:transparent;
 }
 #head{
+    text-align: center;
     color:white;
     padding: 15vh;
     font-family: cursive;
@@ -55,4 +56,22 @@ nav button{
     text-align: center;
     border: solid black 1px;
     border-radius: 10px;
+}
+#menulist{
+    display: flex;
+    justify-content: center;
+    gap:250px;
+    color:blue;
+}
+#menulist h3{
+    font-size: xx-large;
+    color: rgb(199 195 21);
+    margin-bottom: 20px;
+}
+.item ul li{
+    color:rgb(236, 13, 13);
+    padding: 10px;
+    font-size: x-large;
+    margin-left: 20px;
+    list-style-type: none;
 }

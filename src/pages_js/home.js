@@ -17,7 +17,7 @@ export default function home(){
     content.appendChild(slogan2)
 
     //style
-    head.style.textAlign="center"
+   
     slogan1.style.fontSize="50px"
     slogan2.style.fontSize="30px"
     content.style.backgroundImage="url('https://cdn.pixabay.com/photo/2015/12/12/21/13/restaurant-1090136_1280.jpg')";
